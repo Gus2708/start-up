@@ -674,6 +674,15 @@ footer .social .fa-github:hover{
 
   }
 
+  .main .fotos .verde{
+    text-align: left;
+  }
+
+  .main .precios .container .row{
+    margin: auto;
+  }
+
+
 }
 
 @media screen and (max-width: 400px){
@@ -690,4 +699,31 @@ footer .social .fa-github:hover{
   header .contenedor-logo-menu .contenedor-logo{
     margin-left: 35px;
   }
+
+  .main .fotos .container{
+    padding: 0px;
+  }
+  .main .fotos .foto .thumb{
+    padding: 0px;
+  }
+
+  .main .fotos .foto .thumb:first-child{
+   padding-left: 5px;
+  }
+
+  .main .review .container{
+    padding: 0px;
+  }
+
+  .main .review .cliente .review{
+    padding-right: 0px;
+  }
+
+  .main .review .derecha .review{
+    padding-left: 0px;
+
+  }
+
+
+
 }
