@@ -29,26 +29,26 @@ document.addEventListener('DOMContentLoaded', function() {
     e.preventDefault;
     $('html, body').animate({
         scrollTop: clientes
-    }, 500);
+    }, 600);
   });
 
   $('#btn-precios').on('click', function(e){
     e.preventDefault;
     $('html, body').animate({
         scrollTop: precios
-    }, 500);
+    }, 700);
   });
 
   $('#btn-comentarios').on('click', function(e){
     e.preventDefault;
     $('html, body').animate({
         scrollTop: comentarios
-    }, 500);
+    }, 800);
   });
 
   $('#btn-contactos').on('click', function(e){
     e.preventDefault;
     $('html, body').animate({
         scrollTop: contactos
-    }, 500);
+    }, 900);
   });
